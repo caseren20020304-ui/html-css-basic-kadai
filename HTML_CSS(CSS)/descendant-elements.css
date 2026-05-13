@@ -1,0 +1,6 @@
+#parent > P {
+  color: red;
+}
+#parent > p {
+  color: red;
+}
