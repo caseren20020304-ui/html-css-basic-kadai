@@ -1,0 +1,10 @@
+p {
+  border: solid 5px yellow;
+  padding: 10px;
+  margin: 10px;
+}
+
+#second-paragragh {
+  padding: 100px;
+  border: solid 5px yellow;
+}
