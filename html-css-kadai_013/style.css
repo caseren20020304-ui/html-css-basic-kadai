@@ -23,7 +23,7 @@ PC用のスタイル
     margin: 0 auto 0 auto;
   }
 
-  /* スマホ用メニューをPCで非表示にする */
+  /* スマートフォン用メニューをPCで非表示にする */
   #menu-sp,
   #nav-sp {
     display: none;
@@ -71,7 +71,6 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
-}
 
 #sns-footer {
   display: flex;
@@ -191,7 +190,7 @@ PC用のスタイル
   #nav-sp a:active {
     color: #ffffff;
   }
-  
+
   #nav-sp .menu {
     text-decoration: none;
     display: block;
@@ -201,5 +200,5 @@ PC用のスタイル
     background-image: url("images/arrow.png");
     background-repeat: no-repeat;
     background-position: right top;
-}
+  }
 }
