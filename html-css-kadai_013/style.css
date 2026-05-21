@@ -23,6 +23,19 @@ PC用のスタイル
     margin: 0 auto 0 auto;
   }
 
+  /* スマホ用メニューをPCで非表示にする */
+  #menu-sp,
+  #nav-sp {
+    display: none;
+  }
+
+  /* ヘッダー */
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
   /* ヘッダー */
   header {
     display: flex;
@@ -59,6 +72,57 @@ PC用のスタイル
     color: #0d0d0d;
   }
 }
+
+#sns-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sns-footer a {
+  margin-right: 30px;
+}
+
+#copyright {
+  color: #ffffff;
+  margin: 0;
+}
+
+ /* mission.html用スタイル */
+ /* ミッションのメインビジュアル */
+ .mission-main-inner {
+   background-image: url("images/mission/mission-main.png");
+   background-repeat: no-repeat;
+   background-position-y: center;
+ }
+ 
+ #mission-title {
+   background-color: #2710d5;
+   width: 368px;
+   color: #ffffff;
+   height: 496px;
+   border-radius: 0 248px 248px 0;
+   position: relative;
+ }
+ 
+ #mission-title h1 {
+   position: absolute;
+   top: 0;
+   left: 100px;
+   font-size: 80px;
+   line-height: 1;
+ }
+ 
+ #mission-title h1 span {
+   font-size: 26px;
+ }
+ 
+ #mission-title > p {
+   position: absolute;
+   top: 350px;
+   left: 100px;
+   font-size: 16px;
+ }
+ 
 /* 画面幅が767px以下のとき */
 @media screen and (max-width: 767px) {
   /* スマートフォン用のスタイルを指定する */
